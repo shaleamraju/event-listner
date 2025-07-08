@@ -8,7 +8,7 @@
 
 
 <h2>Click the button below to change colors</h2>
-<button id="colorme" style="background-color: red;">Click me</button>
+<button id="colorme" style="background-color: black;">Click me</button>
 
 
 <script>
@@ -17,7 +17,7 @@
 
 
   button.addEventListener("click", function (e) {
-    if (state === "red"){
+    if (state === "black"){
         button.style.backgroundColor = "blue";
         state = "blue"
         e.stopImmediatePropagation();
